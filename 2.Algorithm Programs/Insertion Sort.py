@@ -13,7 +13,7 @@ class InsertionSort:
         n = int(input("Enter the number of strings to be entered : "))
         # Inserting the elements into the array
         for i in range(0, n):
-            list.append(int(input("Enter String : ")))
+            list.append(input("Enter String : "))
         # constant increment of i values
         for i in range(0, len(arr)):
             j = i+1
